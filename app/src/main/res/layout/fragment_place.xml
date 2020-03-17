@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ListView
+        android:id="@+id/listview_nearest_places"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fbuttonwhiet"
+        />
+    <ProgressBar
+        android:id="@+id/progressBar_nearest_places"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:indeterminateDrawable="@drawable/progress"
+        />
+    <Button
+        android:id="@+id/enable_Location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_bk2"
+        android:padding="10dp"
+        android:text="اضغط لتفعيل الموقع"
+        android:textColor="@color/white"
+        android:textSize="14sp"/>
+    <TextView
+        android:id="@+id/tv_nearest_places_no_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="لا يوجد نتائج"
+        android:textColor="@color/colorHint"
+        android:textSize="20dp"
+        android:visibility="gone"/>
+</FrameLayout>

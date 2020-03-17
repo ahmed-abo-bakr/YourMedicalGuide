@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lin1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="graduationproject.yourmedicalguide.com.yourmedicalguide.Search_Result">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fbuttonwhiet"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_nearest_places"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/fbuttondarkblue"
+            android:text="الاقرب"
+            android:textColor="@color/white"
+            android:textSize="14sp"/>
+        <Button
+            android:id="@+id/btn_no_internet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/fbuttonwhiet"
+            android:singleLine="true"
+            android:text="بدون انترنت"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp"
+            />
+        <Button
+            android:id="@+id/btn_top_ratings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/fbuttondarkblue"
+            android:text="الافضل"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fbuttonwhiet"
+        android:orientation="vertical"></LinearLayout>
+
+</LinearLayout>

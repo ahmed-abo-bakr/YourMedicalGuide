@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">دليلك الطبي</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="guide1">
+السـكر الصـائم
+
+    </string>
+    <string name="guide11">
+ يشترط الصيام من 6 - 8 ساعات ويسمح بشرب الماء فقط أثناء فتــرة الصيــــام
+
+
+    </string>
+    <string name="guide2">
+
+        بعد الاكل بـ ساعتين
+
+    </string>
+    <string name="guide22">
+
+         يشترط احتساب الساعتين من بداية الأكل و يشترط تناول الطعام في خلال أول عشر دقائق من بداية الساعتين. لا يسمح بتناول أي طعام خلال الساعتين ويسمح فقط بتناول المـاء و العلاج أن وجد، كما يرجى الحـضور إلى المعمل قبل انتهاء الساعتين بربع ساعة علي الأقل
+
+    </string>
+    <string name="guide3">
+
+        دهنيــات الــدم
+
+
+
+    </string>
+    <string name="guide33">
+
+        يشترط الصيام من 12 - 14 ساعة على الأقل ويسمح بشرب  الماء فقط خلال فترة الصيام
+
+
+
+    </string>
+    <string name="guide4">
+
+        الدم الخفى في البراز
+
+
+
+    </string>
+    <string name="guide44">
+
+
+        يمتنع المريض لمدة 48 ساعة قبل إجراء التحليل عن تناول الأطعمــة الاتيــــة: اللحوم و الفجل و  أدوية الروماتيزم و الأسبرين أو أي أدوية تحتوى على فيتاميــن C أو حـديد أو كورتيزون
+
+    </string>
+
+    <string name="guide6">
+
+        تحليل أنيميا الفول
+
+
+
+    </string>
+    <string name="guide66">
+
+        يشترط عدم إجراء التحليل بعد نقل الدم أو حدوث انتكاسة
+
+
+
+    </string>
+    <string name="guide7">
+
+        الحديد
+
+    </string>
+    <string name="guide77">
+
+        يشترط الصيام لمدة 6-8 ساعات والحضور صباحا لإجراء التحليل وقبل أخذ العلاج أو نقل دم.
+
+    </string>
+    <string name="guide8">
+
+        سرعة الترسيب
+
+    </string>
+    <string name="guide88">
+
+         يفضل الصيام من 6-8 ساعات.
+
+    </string>
+</resources>
